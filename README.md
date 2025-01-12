@@ -1,1 +1,2 @@
-# budgetbuddy_website
+# budgetbuddy
+website : https://tomartwinkle.github.io/budgetbuddy_website/
