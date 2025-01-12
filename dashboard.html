@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link href="./dashboard.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="header">
+    <div class="logo">
+      <img src="C:\Users\Twinkle\Pictures\Screenshots\Screenshot 2025-01-08 134732.png" alt="Logo">
+    </div>
+    <h3>Emma Carter</h3>
+    <div class="header_right">
+      <ul>
+        <li>Home</li>
+        <li>Features</li>
+        <li>Support</li>
+      </ul>
+    </div>
+    <div class="header_left">
+      <ul>
+        <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdSpnhcOiSpcXKoKJwEJscRJ8pKqXESVMFeQ&s" alt="Icon"></li>
+      </ul>
+    </div>
+    
+  </div>
+
+  <div class="part1">
+    <div class="subpart1">
+      <h1>Dashboard</h1>
+      <h3>personalized for you</h3>
+      <p>
+        Insights from Graph<br>
+        Notable spikes in Entertainment and Dining Out during holiday months, impacting savings.
+        Suggests capping discretionary expenses during such months.<br><br>
+        Savings Milestones:<br>
+        You are on track but slightly behind. Adjusting investment strategy and reducing non-essentials can help regain pace.
+      </p>
+      <div class="buttons">
+      <button onclick="document.getElementById('part4').scrollIntoView({ behavior: 'smooth' });">Suggestions</button>
+      <button onclick="document.getElementById('part2').scrollIntoView({ behavior: 'smooth' });">Growth Analysis</button>
+    </div>
+    </div>
+    <img src="https://i.pinimg.com/736x/0b/3f/4f/0b3f4f439c30238868481fa4437adf60.jpg" alt="Graph">
+  </div>
+
+
+    <div class="part2" id="part2">
+      <div class="graph-container">
+        <canvas id="financial-growth"></canvas>
+      </div>
+    </div>
+
+
+
+  <div class="part3">
+    <!--4 options : budget analysis + add the option to automate it using upi 
+                    goal tracking 
+                    whatif scenarios + genAI or a note on how we plan to update it 
+                    financial forecasting genAI-->
+                    <div class="services-container">
+                      <h1 class="services-title">Our Features</h1>
+                      <div class="services">
+                        <div class="service-card">
+                          <img src="https://www.hdfclife.com/content/dam/hdfclifeinsurancecompany/articles/Goal-Based-Investing.jpg" alt="Basic Plan Image">
+                          <h2>Goal Tracking</h2>
+                          <p class="price">Achieve Your Financial Milestones</p>
+                          <p class="description">
+                            Goal-based tracking allows users to set specific financial targets, such as saving for a vacation, buying a home, or growing a business. <br><br> Align with your im.
+                          </p>
+                          <button class="learn-more">Learn More</button>
+                        </div>
+                        <div class="service-card">
+                          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCQATA_fwgozrKCT-h6bdYbZqDO8k-x9WPAyIif8uzs4lQL7BZxuO6k-dcz-2BI2T8N5g&usqp=CAU" alt="Creative Plan Image">
+                          <h2>What-If Analysis</h2>
+                          <p class="price">Make Accurate decisions</p>
+                          <p class="description">
+                            What-if analysis helps you understand the impact of your financial decisions before making them. By simulating different scenarios, such as changes in income, expenses, or investments, this tool enables you to make informed choices and minimize risks.
+                          </p>
+                          <button class="learn-more">Learn More</button>
+                        </div>
+                        <div class="service-card">
+                          <img src="https://vipartners.com.au/wp-content/uploads/2024/07/demand-forecasting-feature-image.webp" alt="Premium Plan Image">
+                          <h2>Financial Forecasting</h2>
+                          <p class="price">Secure your future</p>
+                          <p class="description">
+                            Financial forecasting uses data and trends to predict your financial future. 
+                            <br><br>Where do you see yourself in 10 years ? now, you know the answer.
+                          </p>
+                          <button class="learn-more">Learn More</button>
+                        </div>
+                      </div>
+                    </div>
+
+  </div>
+  
+<div class="part4" id="part4">
+<div class="sv">
+  <div class="s_one">
+  <h1>💡 Savings Insight: Build Your Emergency Fund</h1>
+  <p><br><br>
+    Our analysis suggests you allocate <strong>20% of your monthly income</strong> towards a high-yield savings account for building an emergency fund.
+    This fund ensures financial stability in case of unexpected expenses like medical emergencies or job loss.
+  </p>
+  </div>
+<div class="sh">
+  <div class="s_two">
+  <h1>💸 Pro Tip</h1>
+  <p><br><br>
+    Aim for <strong>6 months' worth of living expenses</strong> to stay secure and reduce financial stress.
+  </p>
+  </div>
+  <div class="s_three">
+  <h1>📈 Graph Analysis</h1>
+  <p><br><br>
+    Include a simple breakdown pie chart: 
+    <br> - Emergency Fund: <strong>20%</strong> 
+    <br> - Living Expenses: <strong>50%</strong> 
+    <br> - Investments: <strong>20%</strong> 
+    <br> - Miscellaneous: <strong>10%</strong>.
+  </p>
+  </div>
+</div>
+</div>
+</div>
+
+  <div class="footer">
+    <div class="footer_right">
+    <ul>
+    <li>Loremipsum@gmail.com </li>
+    <li>Help</li>
+    <li>Socials</li>
+    </ul>
+  </div></div>
+  <script src="dashboard.js"></script>
+</body>
+</html>
