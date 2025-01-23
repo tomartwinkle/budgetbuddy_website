@@ -1,0 +1,213 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0a0a0a;
+    color: #ffffff;
+  }
+  
+  header {
+    background-color: #004d00;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+  }
+  
+  header nav h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  .main-content {
+    padding: 20px;
+  }
+  
+  .head-text h1 {
+    text-align: center;
+    color: #b6e2bbaf;
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+  }
+  
+  .under-head-text {
+    width: 60px;
+    height: 4px;
+    background-color: #18ad1d;
+    margin: 0 auto 20px auto;
+  }
+  
+  /* Tracker Section */
+  .tracker-part {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tracker-balance {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #0c8f29;
+    background-color: #c1e0c1;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+  }
+  
+  /* Currency Filter */
+  .currency-filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 20px;
+  }
+  
+  label {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  #currency,
+  #date {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    color: #333;
+    cursor: pointer;
+    width: 100%;
+    max-width: 200px;
+  }
+  
+  #currency:hover,
+  #date:hover {
+    border-color: #129d0d;
+  }
+  
+  /* Transaction Form */
+  .transaction-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .transaction-form input,
+  .transaction-form select {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    width: 100%;
+    max-width: 200px;
+    background-color: #ffffff;
+  }
+  
+  .transaction-form button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .transaction-form button:first-of-type {
+    background-color: #54ca5f;
+    color: white;
+  }
+  
+  .transaction-form button:last-of-type {
+    background-color: #18ad1d;
+    color: white;
+  }
+  
+  .transaction-form button:hover {
+    filter: brightness(1.1);
+  }
+  
+  /* Table Section */
+  .table-part {
+    overflow-x: auto;
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+  }
+  
+  th,
+  td {
+    text-align: left;
+    padding: 15px;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #043204;
+    color: white;
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #e0f3ff;
+  }
+  
+  .delete-button,
+  .edit-button,
+  .save-button {
+    font-size: 0.9rem;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete-button {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .edit-button {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .save-button {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .delete-button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .edit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .save-button:hover {
+    background-color: #218838;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    background-color: #00274d;
+    color: white;
+    padding: 10px 0;
+    margin: top 40px;
+  }
